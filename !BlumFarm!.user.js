@@ -14,9 +14,9 @@
 let GAME_SETTINGS = {
 	minBombHits: Math.floor(Math.random() * 2),
 	minIceHits: Math.floor(Math.random() * 2) + 2,
-	flowerSkipPercentage: Math.floor(Math.random() * 11) + 15,
-	minDelayMs: 500,
-	maxDelayMs: 999,
+	flowerSkipPercentage: Math.floor(Math.random() * 11) + 10,
+	minDelayMs: 300,
+	maxDelayMs: 500,
 	autoClickPlay: false,
 	dogsProbability: (98 + Math.random()) / 100,
 	trumpProbability: (98 + Math.random()) / 100,
